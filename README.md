@@ -11,12 +11,21 @@
 </pre>
 A goblin survival game
 ---
-Contributors: \
-Zachary Drummond - zdrummon@gmail.com
+## Quick Links
+- 📥 [Getting Started](docs/GETTING_STARTED.md)
+- 🛠️ [Build Instructions](docs/BUILD.md)
+- 📚 [Design Document](docs/DESIGN.md)
+- 🧠 [To-Do List](docs/TODO.md)
+- 🐞 [Bug Tracker](https://github.com/yourname/retributionIV/issues)
+- 🤝 [Contributing](docs/CONTRIBUTING.md)
+- 👥 [Credits](docs/CREDITS.md)
 ---
-### Instructions:
-1. (tbd- filler)
+## 🚧 Current Status
+> ⚠️ Pre-alpha. Most systems are prototypes or experimental.
+>
+> Dev logs coming soon!
 ---
-### To-do:
-- [ ] codelol
-    * partially complete
+## 🎮 Requirements
+
+- SFML 2.6+
+- C++20
