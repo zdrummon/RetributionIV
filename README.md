@@ -27,5 +27,5 @@ A goblin survival game
 ---
 ## 🎮 Requirements
 
-- SFML 2.6+
+- SFML 3.0+
 - C++20
