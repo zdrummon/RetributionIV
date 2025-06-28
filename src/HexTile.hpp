@@ -1,5 +1,5 @@
 #pragma once
-#include "HexMath.hpp"
+#include "HexTools.hpp"
 
 struct HexTile {
     int x;

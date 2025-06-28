@@ -1,6 +1,9 @@
 // Game.hpp
 #pragma once
 #include <SFML/Graphics.hpp>
+#include "Player.hpp"
+#include "World.hpp"
+#include "GraphicsTools.hpp"
 
 class Game {
 public:
@@ -14,4 +17,6 @@ private:
 
     sf::RenderWindow window;
     sf::RectangleShape rectangle;
+    Player player;
+    World world;
 };

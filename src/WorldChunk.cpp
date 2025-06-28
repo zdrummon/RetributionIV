@@ -1,5 +1,10 @@
 #include "WorldChunk.hpp"
 
+//Default constructor
+WorldChunk::WorldChunk()
+    : width(0), depth(0)
+{}
+
 WorldChunk::WorldChunk(int width, int depth)
     : width(width), depth(depth), tiles(width, std::vector<HexTile>(depth))
 {
@@ -8,7 +13,7 @@ WorldChunk::WorldChunk(int width, int depth)
         for (int y = 0; y < depth; ++y) {
             tiles[x][y].x = 0;
             tiles[x][y].y = 0;
-            tiles[x][y].elevation = 0; // or whatever default you want
+            tiles[x][y].elevation = 0; 
         }
     }
 }

@@ -11,7 +11,9 @@ endif()
 
 find_package(SFML 3 REQUIRED COMPONENTS Graphics Window System)
 
-add_executable(RetributionIV src/main.cpp src/Game.cpp)
+file(GLOB SRC_FILES src/*.cpp)
+
+add_executable(RetributionIV ${SRC_FILES})
 
 target_link_libraries(RetributionIV PRIVATE SFML::Graphics SFML::Window SFML::System)
 

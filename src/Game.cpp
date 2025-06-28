@@ -1,13 +1,25 @@
 // Game.cpp
 #include "Game.hpp"
+#include "GraphicsTools.hpp"
+#include "World.hpp"
+#include "Player.hpp"
+#include "HexTile.hpp"
+#include <SFML/Graphics.hpp>
+#include <SFML/Window/Event.hpp>
+#include <SFML/System/Clock.hpp>
 
 Game::Game()
-    : window(sf::VideoMode(sf::Vector2u(800, 600), 32), "SFML 3 Game")
+    : window(sf::VideoMode(sf::Vector2u(800, 600), 32), "Retribution IV")
 
 {
-    rectangle.setSize({200.f, 100.f});
+    float tileWidth = static_cast<float>(window.getSize().x) / World::chunkSize;
+    float tileHeight = static_cast<float>(window.getSize().y) / World::chunkSize;
+    float playerX = tileWidth * (player.tileX + World::chunkSize / 2);
+    float playerY = tileHeight * (player.tileY + World::chunkSize / 2);
+
+    rectangle.setSize({UNIT_SIZE, UNIT_SIZE});
     rectangle.setFillColor(sf::Color::Red);
-    rectangle.setPosition({300.f, 250.f});
+    rectangle.setPosition({playerX - UNIT_SIZE / 2, playerY - UNIT_SIZE / 2});
 }
 
 void Game::run() {

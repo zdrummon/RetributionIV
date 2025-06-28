@@ -1,10 +1,11 @@
 #pragma once
 #include "HexTile.hpp"
-#include "HexMath.hpp"
+#include "HexTools.hpp"
 #include <vector>
 
 class WorldChunk {
 public:
+    WorldChunk();
     WorldChunk(int width, int depth);
     HexTile& at(int x, int y);
 
