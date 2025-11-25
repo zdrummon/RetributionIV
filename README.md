@@ -12,6 +12,7 @@
 A goblin survival game
 ---
 ## Quick Links
+- 🏠 **Home** <-- you are here
 - 📥 [Getting Started](docs/GETTING_STARTED.md)
 - 🛠️ [Build Instructions](docs/BUILD.md)
 - 📚 [Design Document](docs/DESIGN.md)

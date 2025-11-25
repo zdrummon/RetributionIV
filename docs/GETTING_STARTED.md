@@ -1,5 +1,6 @@
 ## Quick Links
 - 🏠 [Home](../README.md)
+- 📥 **Getting Started** <-- you are here
 - 🛠️ [Build Instructions](docs/BUILD.md)
 - 📚 [Design Document](docs/DESIGN.md)
 - 🧠 [To-Do List](docs/TODO.md)

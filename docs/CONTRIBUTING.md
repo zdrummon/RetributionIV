@@ -5,6 +5,7 @@
 - 📚 [Design Document](docs/DESIGN.md)
 - 🧠 [To-Do List](docs/TODO.md)
 - 🐞 [Bug Tracker](https://github.com/yourname/retributionIV/issues)
+- 🤝 **Contributing** <-- you are here
 - 👥 [Credits](docs/CREDITS.md)
 ---
 
