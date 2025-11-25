@@ -1,12 +1,12 @@
 ## Quick Links
 - 🏠 [Home](../README.md)
-- 📥 [Getting Started](docs/GETTING_STARTED.md)
+- 📥 [Getting Started](./GETTING_STARTED.md)
 - 🛠️ **Build Instructions** <-- you are here
-- 📚 [Design Document](docs/DESIGN.md)
-- 🧠 [To-Do List](docs/TODO.md)
+- 📚 [Design Document](./DESIGN.md)
+- 🧠 [To-Do List](./TODO.md)
 - 🐞 [Bug Tracker](https://github.com/yourname/retributionIV/issues)
-- 🤝 [Contributing](docs/CONTRIBUTING.md)
-- 👥 [Credits](docs/CREDITS.md)
+- 🤝 [Contributing](./CONTRIBUTING.md)
+- 👥 [Credits](./CREDITS.md)
 ---
 ### Instructions:
 (manual build and run coming soon)
