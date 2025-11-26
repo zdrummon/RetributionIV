@@ -1,13 +1,11 @@
 ## Quick Links
 - 🏠 [Home](../README.md)
 - 📥 [Getting Started](./GETTING_STARTED.md)
-- 🛠️ [Build Instructions](./BUILD.md)
+- 🤝 **Contribution Guide** <-- you are here
 - 📚 [Design Document](./DESIGN.md)
 - 🧠 [To-Do List](./TODO.md)
 - 🐞 [Bug Tracker](https://github.com/yourname/retributionIV/issues)
-- 🤝 **Contributing** <-- you are here
 - 👥 [Credits](./CREDITS.md)
 ---
 
-Contributors: \
-Zachary Drummond - zdrummon@gmail.com
+Style guide and contribution guide coming soon, currently there's not much of a guide to folllow.
